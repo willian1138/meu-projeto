@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>SISTEMA WEB</title>
+    <!-- Link para o CSS do Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Estilos CSS customizados -->
+    <style>
+      /* Define a cor de fundo do header */
+      .header {
+        background-color: blue;
+        color: white;
+        padding: 20px;
+      }
+      /* Define a cor de fundo do body e do footer */
+      .body, .footer {
+        background-color: white;
+        padding: 20px;
+      }
+      /* Define o estilo do botão de cadastro */
+      .btn-cadastrar {
+        background-color: blue;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>SISTEMA WEB  Cadastrar   Consultar</h1>
+      </div>
+      <div class="body">
+	  
+	<p>Cadastrar - Agendamento de Potenciais Clientes </p>
+	<p>Sistema utilizado para agendamento de servicoes.</p>
+        <form>
+          <div class="form-group">
+            <label for="nome">Nome:</label>
+            <input type="text" class="form-control" id="nome">
+          </div>
+          <div class="form-group">
+            <label for="telefone">Telefone:</label>
+            <input type="text" class="form-control" id="telefone">
+          </div>
+          <div class="form-group">
+            <label for="origem">Origem:</label>
+            <input type="text" class="form-control" id="origem">
+          </div>
+          <div class="form-group">
+            <label for="data-contato">Data do Contato:</label>
+            <input type="date" class="form-control" id="data-contato">
+          </div>
+          <div class="form-group">
+            <label for="observacao">Observação:</label>
+            <textarea class="form-control" id="observacao" rows="3"></textarea>
+          </div>
+          <button type="submit" class="btn btn-cadastrar">Cadastrar</button>
+        </form>
+      </div>
+      <div class="footer">
+        
+      </div>
+    </div>
+    <!-- Link para o JS do Bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
